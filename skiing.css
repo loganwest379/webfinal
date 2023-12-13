@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f5ec; /* Cream color background */
+}
+
+header {
+  position: relative;
+  height: 100vh;
+  background: url('https://cdn.shopify.com/s/files/1/0080/6777/6627/files/Owen-10_480x480.jpg?v=1610064248') center/cover no-repeat; /* Background image of mountains */
+  color: #fff; /* Text color on the image */
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 70px; /* Set an absolute font size in pixels */
+  margin: 0;
+  color: black;
+}
+h2 {
+  text-align: left;
+}
+
+section {
+  text-align: left;
+  margin: px 0;
+}
+
+ol {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+p {
+  color: #444; /* Font color for paragraphs */
+  font-family: 'Arial', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Font family for paragraphs */
+}
+
+a {
+  color: #067198; /* Font color for links */
+  font-family: 'Helvetica', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Font family for links */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-description {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 1px;
+}

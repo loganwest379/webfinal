@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Skier's Guide</title>
+  <link rel="stylesheet" href="skiing.css"> <!-- Link to your CSS file -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <style>
+    /* Your existing CSS styles */
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f8f5ec; /* Cream color background */
+    }
+
+    header {
+      position: relative;
+      height: 100vh;
+      background: url('https://cdn.shopify.com/s/files/1/0080/6777/6627/files/Owen-10_480x480.jpg?v=1610064248') center/cover no-repeat; /* Background image for the header */
+      color: #fff; /* Text color on the image */
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0; /* Adjust the padding values */
+      box-sizing: border-box;
+    }
+
+    header h1 {
+      font-size: 6.5em;
+      margin: 0;
+      line-height: 0.8;
+      font-family: 'Your Custom Font', sans-serif; /* Replace with your chosen font */
+      text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    }
+
+    .carousel-container {
+      max-width: 100%;
+      margin: 20px auto;
+    }
+
+    .carousel-container img {
+      max-width: 100%;
+      height: 300px; /* Set a fixed height for the images */
+      object-fit: cover;
+    }
+
+    .carousel-preview {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .carousel-preview img {
+      max-width: 80px;
+      height: auto;
+      margin: 0 10px;
+      cursor: pointer;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <header data-aos="fade-down">
+    <h1 data-aos="zoom-out">The Skier's Guide</h1>
+  </header>
+
+  <section data-aos="fade-up">
+    <h2>Skiing Tips and Adventures</h2>
+    <ol>
+      <li>
+        Always wear appropriate gear.
+        <ul>
+          <li>Choose waterproof clothing for wet conditions.</li>
+          <li>Ensure your ski boots fit properly.</li>
+          <li>Wear gloves to keep your hands warm.</li>
+        </ul>
+      </li>
+      <li>
+        Check weather conditions before hitting the slopes.
+        <ul>
+          <li>Monitor snow reports for the latest conditions.</li>
+          <li>Be aware of the forecasted temperature and wind speed.</li>
+          <li>Consider visibility factors for safe skiing.</li>
+        </ul>
+      </li>
+      <li>
+        Practice proper skiing techniques.
+        <ul>
+          <li>Learn to maintain a balanced stance.</li>
+          <li>Master the art of turning on different terrains.</li>
+          <li>Take lessons to improve your skills.</li>
+        </ul>
+      </li>
+    </ol>
+  </section>
+  
+
+  <br>
+
+  <!-- Image Carousel with Preview -->
+  <div class="carousel-container">
+    <div><img src="https://cdn.shopify.com/s/files/1/0080/6777/6627/files/Owen-10_480x480.jpg?v=1610064248" alt="Skiing in the mountains"></div>
+    <div><img src="https://images.newschoolers.com/images/17/00/83/93/21/839321_926w_640h.jpeg" alt="Skiing in the mountains"></div>
+    <div><img src="https://s3.amazonaws.com/images.gearjunkie.com/uploads/2020/11/Salomon-Mike-Gamble-backcountry-skiing-e1604600717806.jpg" alt="Skiing in the mountains"></div>
+    <!-- Add more images as needed -->
+  </div>
+
+  <!-- Image Preview Carousel -->
+  <div class="carousel-preview">
+    <img src="https://cdn.shopify.com/s/files/1/0080/6777/6627/files/Owen-10_480x480.jpg?v=1610064248" alt="Skiing in the mountains">
+    <img src="https://images.newschoolers.com/images/17/00/83/93/21/839321_926w_640h.jpeg" alt="Skiing in the mountains">
+    <img src="https://s3.amazonaws.com/images.gearjunkie.com/uploads/2020/11/Salomon-Mike-Gamble-backcountry-skiing-e1604600717806.jpg" alt="Skiing in the mountains">
+    <!-- Add more images as needed -->
+  </div>
+  <div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+    <iframe class="youtube-video" src="https://www.youtube.com/embed/75uL12ZJTxc?si=xHmazkqGvV2R305p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+  <!-- On-page anchor -->
+  <a href="#favorite-experience" data-aos="fade-up">Jump to My Favorite Skiing Experience</a>
+
+  <!-- Section about your favorite skiing experience -->
+  <section id="favorite-experience" data-aos="fade-up">
+    <h2>My Favorite Skiing Experience</h2>
+    <p>My favorite skiing memory that I have is when my dad took me to Jackson Hole. He grew up skiing all over and I always knew that this was an amazing mountain and once I saw it I knew it would be amazing to ski. We spend the weekened there skiing there and at another local ski resort. It is my favorite memory because I got to do it with my dad.</p>
+  </section>
+
+  <!-- Tableau graph -->
+  <div class="tableau-container" data-aos="fade-up" style="margin-bottom: 20px;"></div>
+    <div class='tableauPlaceholder' id='viz1702119488940' style='position: relative'>
+      <noscript><a href='#'><img alt='Dashboard 3 (2) ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sk&#47;Skiing_16776919447630&#47;Dashboard32&#47;1_rss.png' style='border: none' /></a></noscript>
+      <object class='tableauViz'  style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='site_root' value='' />
+        <param name='name' value='Skiing_16776919447630&#47;Dashboard32' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sk&#47;Skiing_16776919447630&#47;Dashboard32&#47;1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='en-US' />
+      </object>
+    <script type='text/javascript'>
+      var divElement = document.getElementById('viz1702119488940');
+      var vizElement = divElement.getElementsByTagName('object')[0];
+      vizElement.style.width='800px';vizElement.style.height='900px';
+      var scriptElement = document.createElement('script');
+      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+  </div>
+
+  <!-- YouTube video -->
+ 
+  <!-- Footer -->
+<!-- Footer -->
+<footer>Click <a href="file:///C:/Users/BYU%20Rental/Desktop/MyResume-20231212T033134Z-001/MyResume/index.html" target="_blank">here</a> for resume</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.carousel-container').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        fade: true,
+        prevArrow: '<button type="button" class="slick-prev">❮</button>',
+        nextArrow: '<button type="button" class="slick-next">❯</button>',
+        asNavFor: '.carousel-preview'
+      });
+
+      $('.carousel-preview').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        asNavFor: '.carousel-container',
+        dots: true,
+        centerMode: true,
+        focusOnSelect: true
+      });
+    });
+  </script>
+</body>
+
+</html>
